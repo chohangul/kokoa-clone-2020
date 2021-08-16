@@ -191,7 +191,7 @@
   padding: 3px 10px;
   box-sizing: border-box;
   position: fixed;
-  bottom: 73px;
+  bottom: 10vh;
 }
 
 .chat-write__column {
