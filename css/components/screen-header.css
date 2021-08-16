@@ -8,6 +8,7 @@
   background-color: RGB(95, 207, 244);
   width: 100%;
   box-sizing: border-box;
+  z-index: 98;
 }
 
 .screen-header__title {
