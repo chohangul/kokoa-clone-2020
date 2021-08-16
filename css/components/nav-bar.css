@@ -1,0 +1,76 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  background-color: RGB(95, 207, 244);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  animation: appearNavBarAnimation 1s ease-in-out forwards;
+}
+.nav_chat {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  background-color: RGB(95, 207, 244);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+.nav_doticon {
+  background-color: tomato;
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+}
+
+.screen-header__icons div[class="nav_doticon"] {
+  top: -9px;
+  right: -9px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes appearNavBarAnimation {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}

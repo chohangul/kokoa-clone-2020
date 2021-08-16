@@ -1,0 +1,52 @@
+.more {
+  padding-top: 95px;
+}
+
+.more-profile {
+  padding: 0px 25px;
+}
+
+.more-icons {
+  padding: 0px 25px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.more-icons .icon-rows {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  padding: 0px 25px;
+}
+
+.more-suggestions__title {
+  font-weight: 900;
+}
+
+.more-suggestions__frame {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.more-suggestions__content {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.more-suggestions__img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+.more-suggestions__content span {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+}

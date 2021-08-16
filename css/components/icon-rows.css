@@ -1,0 +1,58 @@
+.icon-rows__icons__id {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: RGB(95, 207, 244, 0.05);
+  color: #2e363e;
+  border: 3.4px solid;
+  border-color: #2e363e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.icon-version {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: RGB(95, 207, 244, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+  border: 3.4px solid;
+  border-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.icon-rows__icons i {
+  font-size: 30px;
+}
+
+.icon-rows {
+  display: flex;
+  margin: 15px 0px;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icon-rows__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 70px;
+  margin: 0px 20px;
+}
+
+.icon-rows__icons span {
+  display: block;
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  width: max-content;
+}
