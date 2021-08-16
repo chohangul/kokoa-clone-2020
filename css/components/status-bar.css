@@ -9,6 +9,7 @@
   height: 26px;
   background-color: RGB(95, 207, 244);
   box-sizing: border-box;
+  z-index: 98;
 }
 
 .status-bar__column {
