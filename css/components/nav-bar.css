@@ -13,7 +13,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: max-content;
+  height: 10vh;
   background-color: RGB(95, 207, 244);
   padding: 20px 40px;
   box-sizing: border-box;
