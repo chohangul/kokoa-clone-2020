@@ -2,13 +2,14 @@
   position: fixed;
   display: flex;
   z-index: 99;
-  background-color: teal;
+  background-color: RGB(95, 207, 244);
   top: 0;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 @media screen and (max-width: 645px) {
