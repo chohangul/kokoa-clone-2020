@@ -66,7 +66,7 @@
 }
 
 .chat-main {
-  height: 635px;
+  height: 75vh;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
