@@ -1,0 +1,8 @@
+.chats-main-screen {
+  padding: 0px var(--horizontal-space);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-top: 95px;
+  height: 75vh;
+}
