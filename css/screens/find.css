@@ -3,10 +3,9 @@
   flex-direction: column;
   /* align-items: center; */
   padding-top: 95px;
-  height: 100vh;
+  height: 75vh;
   padding-left: 25px;
   padding-right: 25px;
-  box-sizing: border-box;
 }
 /* 
 .find-body {
