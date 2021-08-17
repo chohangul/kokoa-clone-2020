@@ -7,13 +7,13 @@
   padding-left: 25px;
   padding-right: 25px;
 }
-
+/* 
 .find-body {
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
   box-sizing: border-box;
-}
+} */
 
 .find-screen-header {
   position: absolute;
@@ -31,8 +31,7 @@
 
 .find-nav {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
   z-index: 98;
 }
 
