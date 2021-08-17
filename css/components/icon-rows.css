@@ -38,6 +38,7 @@
   /* height: 100px; */
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .icon-rows__icons {
@@ -45,15 +46,14 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  /* width: 70px;  */
+  width: 70px;
   margin: 0px 20px;
 }
 
 .icon-rows__icons span {
   display: block;
-  /* position: absolute; */
-  /* top: 50px; */
-  margin-top: 15px;
+  position: absolute;
+  top: 50px;
   text-align: center;
   width: max-content;
 }
