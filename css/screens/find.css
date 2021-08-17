@@ -29,12 +29,12 @@
   left: 0px;
   z-index: 98;
 }
-
+/* 
 .find-nav {
   position: absolute;
   bottom: 0;
   z-index: 98;
-}
+} */
 
 .recommended-friends {
   border-top: var(--main-border);
