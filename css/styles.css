@@ -20,6 +20,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/chats.css";
+@import "screens/profile.css";
 
 /* splash screen */
 @import "splash.css";
